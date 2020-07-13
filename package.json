@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pem": "^1.14.4",
+    "socket.io": "^2.3.0"
+  }
+}
