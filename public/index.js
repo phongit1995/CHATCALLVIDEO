@@ -244,9 +244,9 @@ function handleOffer(offer,name){
 
 //when we got an ice candidate from a remote user 
 function handleCandidate(candidate) { 
-    yourConn.addIceCandidate(new RTCIceCandidate(candidate)); 
+    yourConn.addIceCandidate(new RTCIceCandidate(candidate)).cath(error=>console.log(error)); 
   };
   
 function errorHandler(error) {
-    console.log(error);
+    alert(error);
   }
